@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Netflix Navigation</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <button class="nav-btn open-btn">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <img src="/images/netflix-logo-png-2584.png" alt="logo" class="logo" />
+    <p>Mobile Navigation</p>
+
+    <div class="nav visible nav-black">
+      <div class="nav visible nav-red">
+        <div class="nav visible nav-white">
+          <button class="nav-btn close-btn">
+            <i class="fas fa-times"></i>
+          </button>
+          <img
+            src="./images/netflix-logo-png-2584.png"
+            alt="logo"
+            class="logo"
+          />
+
+          <ul class="list">
+            <li><a href="#">Teams</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Life in Netflix</a></li>
+            <li>
+              <ul>
+                <li><a href="#">Netflix culter memo</a></li>
+                <li><a href="#">Work life balance</a></li>
+                <li><a href="#">Inclusion & diversity</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
